@@ -14,9 +14,9 @@ function project_module_menu() {
  * Helper function.
  */
 function project_module_callback() {
-  $variable1 = 'variable one';
-  $variable2 = 'variable two';
-  if (!empty($variable1) || !empty($variable2)) {
-    echo $variable1 . '::' . $variable2;
+  $variable1 ='variable one';
+    $variable2 = 'variable two';
+  if(!empty($variable1) || !empty($variable2)){
+    echo $variable1 .'::' . $variable2;
   }
 }
