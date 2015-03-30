@@ -1,0 +1,29 @@
+{
+  "srcPaths": {
+    "make": "src/project.make",
+    "drupal": "src"
+  },
+  "siteUrls": {
+    "default": "http://project.local"
+  },
+  "buildPaths": {
+    "reports": "./",
+    "html": "./html"
+  },  
+  "packages": {
+    "srcFiles": ["!sites/*/files/**", "!xmlrpc.php", "!modules/php/*"],
+    "projFiles": ["README*", "bin/**"]
+  },
+  "phpcs": {
+    "path": "vendor/bin/phpcs"
+  },
+  "phpmd": {
+    "path": "vendor/bin/phpmd"
+  },
+  "drush": {
+    "cmd": "vendor/bin/drush"
+  },
+  "behat": {
+    "flags": "--tags ~@wip"
+  }
+}
