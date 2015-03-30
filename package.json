@@ -1,5 +1,5 @@
 {
-  "name": "Continues Deployments",
+  "name": "ContinuesDeployments",
   "description": "Example package.json for a Drupal project built with grunt-drupal-tasks.",
   "version": "1.0.0",
   "private": true,
